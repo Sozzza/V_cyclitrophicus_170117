@@ -1,0 +1,9 @@
+myData <- read.csv(
++ file = "F:/R/03_V_cyclitrophicus_170117/V_cyclitrophicus_170117/my_data.csv",
++ header = T,
++ sep = ";",
++ dec = ",",
++ row.names = 1
++ )
+
+View(myData)
