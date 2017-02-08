@@ -1,0 +1,9 @@
+> anova(lm.myData)
+Analysis of Variance Table
+
+Response: myData$c_degradation
+Df     Sum Sq    Mean Sq F value   Pr(>F)    
+myData$diameter_um  1 4.4605e+11 4.4605e+11  77.177 5.14e-06 ***
+  Residuals          10 5.7796e+10 5.7796e+09                     
+---
+  Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
